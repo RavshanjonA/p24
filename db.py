@@ -115,8 +115,8 @@ class Database:
 
 if __name__ == '__main__':
     db = Database()
-    # db.create_user_table()
     # db.create_todo_table()
+    # db.create_user_table()
     # db.insert_user("ahmadjon", "testpassword", "ahmadjon@gmail.com", "+998911112233")
     # db.insert_todo("make gpt 4a", "todo", "1")
     print(db.get_user_by_username("ahmadjon"))
